@@ -92,9 +92,19 @@ namespace Reader
             return;
         }
 
+        public static void AnalyzeRecording()
+        {
+            var analayzedRecording = TextAnalyzer.RunDiff("Here is a story.", SttResult.Message );
+            if (analayzedRecording.Success)
+            {
+                
+            }
+        }
+
         private void Awake()
         {
             NotificationAcknowledgeButton.onClick.AddListener(AcknowledgeNotification);
+            SttEventManager.RecorderStop.AddListener(AnalyzeRecording);
         }
         
     }

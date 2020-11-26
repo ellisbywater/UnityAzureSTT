@@ -79,6 +79,7 @@ public class STT : MonoBehaviour
                 SttResult.IsRecording = WaitingForRecording = false;
             }
             Debug.Log(SttResult.Message);
+            ReaderUI.Instance.UpdateText(SttResult.Message, ReaderUI.TextType.Recorded);
             SttEventManager.RecorderStop.Invoke();
         }
     }

@@ -1,0 +1,110 @@
+﻿{
+  "OldText": {
+    "Lines": [
+      {
+        "Type": 4,
+        "Position": 1,
+        "Text": "here is a story",
+        "SubPieces": [
+          {
+            "Type": 0,
+            "Position": 1,
+            "Text": "here",
+            "SubPieces": []
+          },
+          {
+            "Type": 0,
+            "Position": 2,
+            "Text": " ",
+            "SubPieces": []
+          },
+          {
+            "Type": 1,
+            "Position": 3,
+            "Text": "is",
+            "SubPieces": []
+          },
+          {
+            "Type": 1,
+            "Position": 4,
+            "Text": " ",
+            "SubPieces": []
+          },
+          {
+            "Type": 0,
+            "Position": 5,
+            "Text": "a",
+            "SubPieces": []
+          },
+          {
+            "Type": 0,
+            "Position": 6,
+            "Text": " ",
+            "SubPieces": []
+          },
+          {
+            "Type": 0,
+            "Position": 7,
+            "Text": "story",
+            "SubPieces": []
+          }
+        ]
+      }
+    ],
+    "HasDifferences": true
+  },
+  "NewText": {
+    "Lines": [
+      {
+        "Type": 4,
+        "Position": 1,
+        "Text": "here a story",
+        "SubPieces": [
+          {
+            "Type": 0,
+            "Position": 1,
+            "Text": "here",
+            "SubPieces": []
+          },
+          {
+            "Type": 0,
+            "Position": 2,
+            "Text": " ",
+            "SubPieces": []
+          },
+          {
+            "Type": 3,
+            "Position": null,
+            "Text": null,
+            "SubPieces": []
+          },
+          {
+            "Type": 3,
+            "Position": null,
+            "Text": null,
+            "SubPieces": []
+          },
+          {
+            "Type": 0,
+            "Position": 3,
+            "Text": "a",
+            "SubPieces": []
+          },
+          {
+            "Type": 0,
+            "Position": 4,
+            "Text": " ",
+            "SubPieces": []
+          },
+          {
+            "Type": 0,
+            "Position": 5,
+            "Text": "story",
+            "SubPieces": []
+          }
+        ]
+      }
+    ],
+    "HasDifferences": true
+  }
+}

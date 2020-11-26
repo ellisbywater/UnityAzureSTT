@@ -72,12 +72,7 @@ namespace Reader
                         micPermissionGranted;
                 }
 
-                if (ReaderUI.Instance._recordedText != null)
-                {
-                    ReaderUI.Instance.UpdateText(SttResult.Message, ReaderUI.TextType.Recorded);
-                }
             }
-
         }
 
 
@@ -90,5 +85,6 @@ namespace Reader
             Debug.Log("I SHUT THE FUCK UP!!!!!!!!!!");
             ReaderUI.Instance.UpdateText(SttResult.Message, ReaderUI.TextType.Recorded);
         }
+        
     }
 }
